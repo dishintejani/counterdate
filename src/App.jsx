@@ -25,7 +25,7 @@ class App extends Component {
             <div className='App'>
                 <div className='App-title'>Countown To {this.state.deadline}</div>
                 <Clock deadline={this.state.deadline} ></Clock>
-                <Form >
+                <Form>
                     <FormControl 
                         className='Deadline-input'
                         onChange={event => this.setState({newDeadline: event.target.value})} 
